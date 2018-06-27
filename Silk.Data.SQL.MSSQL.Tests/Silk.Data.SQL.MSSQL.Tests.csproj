@@ -12,4 +12,9 @@
     <PackageReference Include="MSTest.TestFramework" Version="1.2.1" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Silk.Data.SQL.MSSQL\Silk.Data.SQL.MSSQL.csproj" />
+    <ProjectReference Include="..\Silk.Data.SQL.ProviderTests\Silk.Data.SQL.ProviderTests\Silk.Data.SQL.ProviderTests.csproj" />
+  </ItemGroup>
+
 </Project>
