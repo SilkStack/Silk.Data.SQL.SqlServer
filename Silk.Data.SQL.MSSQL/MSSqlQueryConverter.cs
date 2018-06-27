@@ -1,4 +1,5 @@
 ﻿using Silk.Data.SQL.Expressions;
+using Silk.Data.SQL.MSSQL.Expressions;
 using Silk.Data.SQL.Queries;
 using System;
 using System.Collections.Generic;
@@ -81,6 +82,9 @@ namespace Silk.Data.SQL.MSSQL
 
 				switch (queryExpression)
 				{
+					case MSSqlRawQueryExpression rawExpression:
+						Sql.Append(rawExpression.SqlText);
+						break;
 					case SelectExpression select:
 						QueryDepth++;
 						if (isSubQuery)
