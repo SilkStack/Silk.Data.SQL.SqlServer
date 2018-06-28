@@ -13,7 +13,7 @@ Part of the SilkStack project.</Description>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Silk.Data.SQL.Base" Version="0.0.4" />
+    <PackageReference Include="Silk.Data.SQL.Base" Version="0.0.5" />
     <PackageReference Include="System.Data.SqlClient" Version="4.5.0" />
   </ItemGroup>
 
