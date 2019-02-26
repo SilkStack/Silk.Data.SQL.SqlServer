@@ -3,18 +3,24 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Version>0.1.1.0</Version>
+    <Version>0.1.2.2</Version>
     <Authors>John Carruthers</Authors>
     <Company />
     <Product>SilkStack</Product>
     <Description>Silk.Data.SQL.MSSQL is the Microsoft SQL Server provider for Silk.Data.SQL.Base.
 
 Part of the SilkStack project.</Description>
+    <PackageId>Silk.Data.SQL.SqlServer</PackageId>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <Copyright>John Carruthers 2018</Copyright>
+    <PackageLicenseUrl>https://github.com/SilkStack/Silk.Data.SQL.SqlServer/blob/master/license.txt</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/SilkStack/Silk.Data.SQL.SqlServer/</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/SilkStack/Silk.Data.SQL.SqlServer/</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Silk.Data.SQL.Base" Version="0.1.1" />
-    <PackageReference Include="System.Data.SqlClient" Version="4.5.1" />
+    <PackageReference Include="Silk.Data.SQL.Base" Version="0.1.2.2" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.6.0" />
   </ItemGroup>
 
 </Project>
